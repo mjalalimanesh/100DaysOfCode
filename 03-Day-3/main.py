@@ -1,4 +1,7 @@
-""" Treasure Island Game"""
+""" 
+Control Flow and Logical Operators
+Treasure Island Game
+"""
 
 print(
     '''

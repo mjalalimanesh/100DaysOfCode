@@ -1,4 +1,7 @@
-""" Split the bill considering percentage of the tip """
+""" 
+Understanding Data Types and How to Manipulate Strings
+Split the bill considering percentage of the tip
+"""
 
 print("Welcome to the tip calculator.")
 
