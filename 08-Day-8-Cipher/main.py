@@ -1,6 +1,5 @@
 '''
 A Caesar cipher, rotation cipher or shift cipher is a simple substitution cipher where the cleartext is shifted a number of times up or down a known alphabet.
-
 '''
 
 from art import logo
