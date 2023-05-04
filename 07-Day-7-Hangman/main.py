@@ -7,6 +7,9 @@ import os
 from hangman_art import logo, stages
 from hangman_words import word_list
 
+def cls():
+    ''' Clear Console'''
+    os.system('cls' if os.name=='nt' else 'clear')
 
 print(logo)
 
@@ -24,8 +27,7 @@ END_OF_GAME  = False
 while not END_OF_GAME:
     GUESS = (input('Guess a Letter: ')).lower()
 
-    clear = lambda: os.system('clear')
-    clear()
+    cls()
 
     # check if user entered same letter
     if GUESS in display:

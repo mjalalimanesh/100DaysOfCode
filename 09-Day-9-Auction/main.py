@@ -4,6 +4,10 @@ Auction
 import os
 from art import logo
 
+def cls():
+    ''' Clear Console'''
+    os.system('cls' if os.name=='nt' else 'clear')
+
 print(logo)
 print('Welcome to the secret auction prgram.')
 
@@ -20,8 +24,8 @@ while not END_AUCTION:
     any_other_bidder = input("Are there any other bidders? Type 'yes' or 'no'.\n")
     if any_other_bidder == 'no':
         END_AUCTION = True
-    clear = lambda: os.system('clear')
-    clear()
+    cls()
+    
 # Sort to get highest bid
 bids_data.sort(key = lambda d: d['bid'], reverse = True)
 
