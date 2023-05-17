@@ -1,7 +1,7 @@
 """
 Simple Calculator
 """
-
+import os
 from art import logo
 
 def cls():
